@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aula 07" content="width=device-width, initial-scale=1.0">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Descrição da página em ate 160 caracteres" />
@@ -15,24 +15,66 @@
     <meta property="og:url" content="https://cheatsheets.zip/index" />
     <meta property="og:image" content="https://xxx.com/image.jpg" />
 
-    <title>Aula 04</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Aula 07</title>
     
 </head>
+    
 <body>
     
     <header>
-        <aside>
-            <nav>
-                 <!-- Navegação do site -->
-                
-            </nav>
-        </aside>
+     <div class="header-container">
+        <div class="logo">
+            <a href="href="/" class="logo-link">
+               <i class="ph ph-cube"></i>
+               <span> devcorp</span>
+            </a>
+        </div>
+
+        <!-- Menu Principal -->
+        <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <!-- Home -->
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        <i class="ph ph-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <!-- Produtos com sub menu -->
+                <li class="nav-itens has-submenu">
+                    <a href="#" class="nav-link">
+                       <i class="ph ph-package"></i>
+                       <span>Produtos</span>
+                       <i class="ph ph-caret-down submenu-arrow"
+                     </a>
+
+                    <ul class="has-submenu">
+                        <li class="submenu-item">
+                            <a href="#" class="submenu-link">
+                                <i class="ph ph-desktop"></i>
+                                <span>Software Desktop</span>
+                            </a>
+                        </li>
+                        <li class="submenu-item">
+                           <a href="#" class="submenu-link">
+                            <i class="ph ph-divice-mobile"></i>
+                            <span>App Mobile</span>
+                           </a> 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        
     </header>
 
     <main>
         <section>
             <!-- Conteudo principal do teu site -->
-             <a href="estruturas.html">estruturas</a>
         </section>
     </main>
 
